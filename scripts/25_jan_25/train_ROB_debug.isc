@@ -1,0 +1,10 @@
+isc_project_id = "c577316e-4340-4c71-ac50-eb1871f75b4b"
+experiment_name = "tiny_zero_debug"
+gpu_type = "80GB VRAM GPU"
+gpus = 8
+compute_mode = "cycle"
+output_path = "/root/TinyZero/outputs/tiny_zero_debug"
+command = '''
+source /root/venvs/.tiny_zero/bin/activate && 
+cd /root/TinyZero && 
+bash scripts/train_tiny_zero_ROB_debug.sh'''

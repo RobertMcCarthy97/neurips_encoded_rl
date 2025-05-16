@@ -1,0 +1,10 @@
+isc_project_id = "c577316e-4340-4c71-ac50-eb1871f75b4b"
+experiment_name = "burst_0.5B"
+gpu_type = "24GB VRAM GPU"
+gpus = 4
+output_path = "outputs"
+compute_mode = "burst"
+command = '''
+source /root/venvs/.tiny_zero/bin/activate && 
+cd /root/TinyZero && 
+bash scripts/3_feb_25/arth_super_simple_05B_SC.sh'''

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/root/TinyZero/verl/trainer/main_ppo.py", line 40, in <module>
+    from verl.utils.cot_reward_score import arithmetic_illegal_string_lvl_1_dense
+ImportError: cannot import name 'arithmetic_illegal_string_lvl_1_dense' from 'verl.utils.cot_reward_score' (unknown location)
